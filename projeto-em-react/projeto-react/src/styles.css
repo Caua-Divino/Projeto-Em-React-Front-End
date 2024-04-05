@@ -1,0 +1,77 @@
+/*
+    CSS Base que Será usado em todas paginas Web
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+:root {
+    --cor-primaria: #05C962;
+    --cor-secundaria: #079E48;
+
+    --Cor-Primaria: rgb(0, 150, 255);
+    --Cor-Secundaria: rgb(0, 100, 175);
+    --Cor-Primaria-N: rgb(0, 70, 110);
+    --Cor-Secundaria-N: rgb(0, 30, 40);
+}
+
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: "Quicksand", sans-serif;
+}
+
+
+/* Override */
+
+/* .btn.btn-primary {
+    background-color: var(--cor-primaria);
+} */
+
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* Override */
+
+/* .btn.btn-primary {
+    background-color: var(--cor-primaria);
+} */
+
+body{
+    background-color: var(--Cor-Secundaria-N);
+}
+
+.btn-outline-primary,
+.btn-primary {
+    min-width: 90px;
+    margin-right: 2px;
+}
+
+.container-fluid{
+    background-color: var(--Cor-Primaria);
+    border-bottom: solid 6px var(--Cor-Secundaria);
+}
+
+.container{
+    background-color: var(--Cor-Primaria);
+    border: solid 6px var(--Cor-Secundaria);
+    border-radius: 5px;
+}
+
+.btn.btn-primary{
+    background-color: rgb(0, 200, 0);
+    border: solid 6px var(--Cor-Secundaria);
+}
+
+.btn.btn-primary:hover{
+    background-color: rgb(0, 100, 0);
+}
